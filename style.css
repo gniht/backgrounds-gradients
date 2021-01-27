@@ -29,9 +29,9 @@ body {
   height: 25px;;
 }
 
-li:first-child {  
-  border-radius: 6px 0 0 6px;
-  padding: 3px 35px;
+li:first-child {   
+  border-radius: 6px 0 0 6px;  
+  padding: 3px 50px;
 }
 
 li:last-child {
@@ -48,7 +48,7 @@ li:last-child {
 }
 
 .searchbox {
-  border: 1px solid grey;
+  border: none;
   border-radius: 3px;
   background: transparent;
 }
@@ -57,7 +57,14 @@ li div {
   margin-right:  5px;
 }
 
-li input {
+li input {  
   align-self: center;
+  width: 80px;
   color: white;
+}
+
+.search-wrap {
+  display: flex;
+  border: 1px solid grey;
+  border-radius: 10px;
 }
