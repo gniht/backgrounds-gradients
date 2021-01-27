@@ -2,19 +2,39 @@
 body {
   background-image: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
   background-size: 90%;
+  height: 50%;
   background-position: center;
   background-repeat: no-repeat;  
 }
 
 .main-nav {
   display: flex;
-  list-style-type: none;    
+  list-style-type: none;
+  margin: 80px;
+  justify-content: center;    
 }
+
 
 .main-nav li {
   display: block;
+  color: white;
   font-size: 1.2em;
   padding: 5px 25px;
-  margin: 0px;
-  border: 1px solid black
+  margin: 0px;  
+  background: linear-gradient(to bottom, lightgrey, grey);
+  border-right: 1px solid black;
 }
+
+li:first-child {  
+  border-radius: 6px 0 0 6px;  
+}
+
+li:last-child {
+  border-radius: 0 6px 6px 0;
+  border-right: none;
+}
+
+.nav-item:hover {
+  background: dimgrey;
+}
+
