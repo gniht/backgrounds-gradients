@@ -1,0 +1,20 @@
+
+body {
+  background-image: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;  
+}
+
+.main-nav {
+  display: flex;
+  list-style-type: none;    
+}
+
+.main-nav li {
+  display: block;
+  font-size: 1.2em;
+  padding: 5px 25px;
+  margin: 0px;
+  border: 1px solid black
+}
