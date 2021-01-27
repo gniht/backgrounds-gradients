@@ -68,3 +68,15 @@ li input {
   border: 1px solid grey;
   border-radius: 10px;
 }
+
+.headline-container {
+  text-align: center;      
+  font-size: 2em;
+  font-weight: 100;
+  color: white;
+}
+
+.headline-container a {
+  font-size: .7em;  
+}
+
